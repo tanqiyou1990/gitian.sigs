@@ -1,15 +1,15 @@
 --- !omap
 - out_manifest: |
-    8a2b31cc7beec0df71e1b80c43087abe3ce69bce2a1e43d25299f69a356f466b  phore-1.1.0-arm-linux-gnueabihf-debug.tar.gz
-    dd58ffb1b0a552993cef159f95426021f92f09c8b8f62a19cc03cf4b80e7b191  phore-1.1.0-arm-linux-gnueabihf.tar.gz
-    aba99f710d76b2b6f623e7754816a4f109440d205989cc5cbf8a579d0aa9fcba  phore-1.1.0-i686-pc-linux-gnu-debug.tar.gz
-    2167d02412ad331d033926415fe3495dd28b98f32fe65b8c8e50b60141def717  phore-1.1.0-i686-pc-linux-gnu.tar.gz
-    3aba730c55cd19434d8523b2af680605353738593b71ac18c38e7affb9d5f063  phore-1.1.0-x86_64-linux-gnu-debug.tar.gz
-    d5f45458663e04b8045aa7b1671ce1dfa79cfcbee71cdcdec07b9dd5ce374824  phore-1.1.0-x86_64-linux-gnu.tar.gz
-    3f63341a5a1713bb8c21eae2b7ddf09af61198cdbf7ca8333d807cd9a2af38e8  src/phore-1.1.0.tar.gz
+    8a2b31cc7beec0df71e1b80c43087abe3ce69bce2a1e43d25299f69a356f466b  vpub-1.1.0-arm-linux-gnueabihf-debug.tar.gz
+    dd58ffb1b0a552993cef159f95426021f92f09c8b8f62a19cc03cf4b80e7b191  vpub-1.1.0-arm-linux-gnueabihf.tar.gz
+    aba99f710d76b2b6f623e7754816a4f109440d205989cc5cbf8a579d0aa9fcba  vpub-1.1.0-i686-pc-linux-gnu-debug.tar.gz
+    2167d02412ad331d033926415fe3495dd28b98f32fe65b8c8e50b60141def717  vpub-1.1.0-i686-pc-linux-gnu.tar.gz
+    3aba730c55cd19434d8523b2af680605353738593b71ac18c38e7affb9d5f063  vpub-1.1.0-x86_64-linux-gnu-debug.tar.gz
+    d5f45458663e04b8045aa7b1671ce1dfa79cfcbee71cdcdec07b9dd5ce374824  vpub-1.1.0-x86_64-linux-gnu.tar.gz
+    3f63341a5a1713bb8c21eae2b7ddf09af61198cdbf7ca8333d807cd9a2af38e8  src/vpub-1.1.0.tar.gz
 - in_manifest: |-
-    72c9318c8155ffca0a285f02dc880648b70924b43392455bb1fdf8ab179f46cb  phore-linux-3.0-desc.yml
-    git:ef706a0717e3bf7e9091a7c4ee99e7e774e2c6f7 phore
+    72c9318c8155ffca0a285f02dc880648b70924b43392455bb1fdf8ab179f46cb  vpub-linux-3.0-desc.yml
+    git:ef706a0717e3bf7e9091a7c4ee99e7e774e2c6f7 vpub
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -734,6 +734,6 @@
     75b22dc47f5f65891ca8807abcc623b062b65fbbe963fe8878f53f33f95d90a2  x86_64-linux-gnu/zlib/zlib-1.2.11-1adb96e820d.tar.gz
     055dc696a77e916c414e348888fbf24840b1b01faa84a62a78fff390d7c0bd1e  x86_64-linux-gnu/zlib/zlib-1.2.11-1adb96e820d.tar.gz.hash
 - release: 1.2.0.0-linux
-- name: phore-linux-3.0
+- name: vpub-linux-3.0
 - type: build
 - optionals: 

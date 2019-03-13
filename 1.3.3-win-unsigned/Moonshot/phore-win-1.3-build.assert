@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    86ab43fd47581ba0d95378a6a0334df78b6f08114ddc80b51c0bcb8c793c4e65  phore-1.3.3-win-unsigned.tar.gz
-    ff6a1cd77e15ffe89c6eee936303e831ab5f98dbadddcc539e59cb44035b083f  phore-1.3.3-win32-debug.zip
-    b018a2d56a6b96ee24dfac4faade76698e4978eed154619c6dba10af9237bfa0  phore-1.3.3-win32-setup-unsigned.exe
-    8236fb27f337040ef9d64fe78125dc031026998d338b69941917a315a2b48b61  phore-1.3.3-win32.zip
-    ccf0a72e54b283df7cf3d1359a924415c41fe139bb806c3c786f653a4448b2e3  phore-1.3.3-win64-debug.zip
-    69c4b0033e81430c45d65696a826c3298c3fc0b25450e29a5214aea1ae7eec68  phore-1.3.3-win64-setup-unsigned.exe
-    fec5315ff8016e630550dd4196db5ce1b72fb71d131942065f7a88c668275ca8  phore-1.3.3-win64.zip
-    c98806593737f0ee473987c69889bbd879f14d13da02113f550f387fd871b72c  src/phore-1.3.3.tar.gz
+    86ab43fd47581ba0d95378a6a0334df78b6f08114ddc80b51c0bcb8c793c4e65  vpub-1.3.3-win-unsigned.tar.gz
+    ff6a1cd77e15ffe89c6eee936303e831ab5f98dbadddcc539e59cb44035b083f  vpub-1.3.3-win32-debug.zip
+    b018a2d56a6b96ee24dfac4faade76698e4978eed154619c6dba10af9237bfa0  vpub-1.3.3-win32-setup-unsigned.exe
+    8236fb27f337040ef9d64fe78125dc031026998d338b69941917a315a2b48b61  vpub-1.3.3-win32.zip
+    ccf0a72e54b283df7cf3d1359a924415c41fe139bb806c3c786f653a4448b2e3  vpub-1.3.3-win64-debug.zip
+    69c4b0033e81430c45d65696a826c3298c3fc0b25450e29a5214aea1ae7eec68  vpub-1.3.3-win64-setup-unsigned.exe
+    fec5315ff8016e630550dd4196db5ce1b72fb71d131942065f7a88c668275ca8  vpub-1.3.3-win64.zip
+    c98806593737f0ee473987c69889bbd879f14d13da02113f550f387fd871b72c  src/vpub-1.3.3.tar.gz
 - in_manifest: |-
-    20299c0cf31d13b6da16d44ef9767ee1b976c3fe93c780109ea18777c1129b6e  phore-win-1.3-desc.yml
-    git:f9ed66970e92dd2bf679d16d7a5af2c66ac0c5f7 phore
+    20299c0cf31d13b6da16d44ef9767ee1b976c3fe93c780109ea18777c1129b6e  vpub-win-1.3-desc.yml
+    git:f9ed66970e92dd2bf679d16d7a5af2c66ac0c5f7 vpub
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -584,6 +584,6 @@
     f4f0db191e10a1f7730395263a7256f5da0881a5dd4901d96f981c166b4985a4  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz
     e3f33a69a63876817ae07d64816d3d49209b16aa52b9d19ab11b17d02b2c87f7  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz.hash
 - release: 1.3.3-win-unsigned
-- name: phore-win-1.3
+- name: vpub-win-1.3
 - type: build
 - optionals: 

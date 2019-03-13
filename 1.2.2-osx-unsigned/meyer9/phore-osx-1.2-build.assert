@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    bb27fd58a255b4b9bf525d9c4de0aaf6de7a4983a1f0b696e5f90a0cc14721ad  phore-1.2.2-osx-unsigned.dmg
-    86b81d32b7c3aa75bebe81bc3f9ae264e3fb556bae470675b6898610a2adabb5  phore-1.2.2-osx-unsigned.tar.gz
-    2bf7bcce9c244148e07bedf5347ed099ec602f49c54a8f355e6cbe75f98b55f8  phore-1.2.2-osx64.tar.gz
-    2d1c18bb86a7ad22e43b2259ada947a8d19fdc5d1ed3a077301763343711ee83  src/phore-1.2.2.tar.gz
+    bb27fd58a255b4b9bf525d9c4de0aaf6de7a4983a1f0b696e5f90a0cc14721ad  vpub-1.2.2-osx-unsigned.dmg
+    86b81d32b7c3aa75bebe81bc3f9ae264e3fb556bae470675b6898610a2adabb5  vpub-1.2.2-osx-unsigned.tar.gz
+    2bf7bcce9c244148e07bedf5347ed099ec602f49c54a8f355e6cbe75f98b55f8  vpub-1.2.2-osx64.tar.gz
+    2d1c18bb86a7ad22e43b2259ada947a8d19fdc5d1ed3a077301763343711ee83  src/vpub-1.2.2.tar.gz
 - in_manifest: |-
-    e5cc1dd0fea8623e4b24bedee8c8c43d7c3cbe6973cda7d3283ebe671587b95d  phore-osx-1.2-desc.yml
+    e5cc1dd0fea8623e4b24bedee8c8c43d7c3cbe6973cda7d3283ebe671587b95d  vpub-osx-1.2-desc.yml
     fc65dd34a3665a549cf2dc005c1d13fcead9ba17cadac6dfd0ebc46435729898  MacOSX10.11.sdk.tar.gz
-    git:28d60b301396867c2e6a091cfab5057f838f1ce6 phore
+    git:28d60b301396867c2e6a091cfab5057f838f1ce6 vpub
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -639,6 +639,6 @@
     17d96bfad4302d9d1078f8dc173538e1184d2c34038ccc96df081cbed22cc759  x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz
     a34c083c2029133b8be2ff7cae4aea35e13d216e9ecbf68913709529e5bf9924  x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz.hash
 - release: "-osx-unsigned"
-- name: phore-osx-1.2
+- name: vpub-osx-1.2
 - type: build
 - optionals: 
